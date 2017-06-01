@@ -97,7 +97,7 @@
 						<div class="input-group-addon">
 							<i class="fa fa-user" aria-hidden="true"></i>
 						</div>
-						<input type="text" class="form-control" id="txtname" name="txtname" placeholder="Name">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					</div>
 				</div>
 				<div class="form-group">
