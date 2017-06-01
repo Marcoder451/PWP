@@ -2,10 +2,18 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/style.css" type="text/css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
@@ -18,6 +26,7 @@
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
+
 		<title>ANC 451</title>
 		<!-- google recaptcha-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -48,7 +57,7 @@
 			</ul>
 
 			<H3>Artist</H3>
-			<p>Meet the current artist of ANC</p>
+			<p>Meet the artist of ANC</p>
 			<ul>
 				<li>Emel</li>
 				<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
@@ -60,10 +69,14 @@
 				<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
 			</ul>
 
+			<div class="row">
+				<div class="col-md-12">
+					div.col-md-
 			<H3>About Us</H3>
+				</div>
+			</div>
 			<ul>
 				<li>Our Desire</li>
-				<li></li>
 				<li>Our Goal</li>
 			</ul>
 
@@ -71,12 +84,11 @@
 				<div class="col-md-12">
 					<H3 class="text-center">Contact Us</H3>
 				</div>
-
 			</div>
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-4">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-7">
 			<!--Begin Contact Form-->
 			<form id="contact-form" action="php/mailer.php" method="post">
 				<div class="form-group">
@@ -85,7 +97,7 @@
 						<div class="input-group-addon">
 							<i class="fa fa-user" aria-hidden="true"></i>
 						</div>
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+						<input type="text" class="form-control" id="txtname" name="txtname" placeholder="Name">
 					</div>
 				</div>
 				<div class="form-group">
@@ -128,10 +140,10 @@
 			<!--empty area for form error/success output-->
 			<div class="row">
 				<div class="col-xs-12">
-					<div id="output-area"></div>
 				</div>
 			</div>
-		</main>
+			<div id="output-area"></div>
+			</main>
 		</div>
 	</body>
 
