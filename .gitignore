@@ -2,4 +2,6 @@
 /.idea
 /vendor
 /node_modules
+
+# ignore mail configuration data
 **/php/mail-config.php
