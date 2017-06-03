@@ -32,15 +32,44 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
-		<div class="container">
 		<header>
 
 
 		</header>
-		<div>
-			<h1>Content</h1>
-			<H3>Services</H3>
-			<p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+			<div class="container-fluid">
+				<!-- some quote about service. sits on image @ top of screen -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<H3 class="text-center">Services</H3>
+				</div>
+
+				<!-- the page's subtitle -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4"><H3>Meet The Artist Of ANC</H3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+
+					</div>
+				<p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+				</div>
+
+				<div class="row">
+		<ul>
+				<div class="col-md-2"></div>
+				<div class="col-md-2"><li>Studio Recording</li>
+				</div>
+				<div class="col-md-2"><li>Voice Overs</li>
+				</div>
+				<div class="col-md-2"><li>Music Production</li>
+				</div>
+				<div class="col-md-2"><li>Post Production</li>
+				</div>
+				</div>
+		</ul>
 
 			<ul>
 				<li>Studio Recording</li>
@@ -56,29 +85,52 @@
 				<p>We offer Professional Online Mixing and Mastering services for your music, whether you’ve recorded in a home studio or professional studio, whether you’re a beginner or seasoned pro. Our services cater to all artists, producers across the board. Our Mixing and Mastering packages include anything needed in order for your music/campaign to reach its fulfillment. We stick with each client until they’re satisfied. Our staff is responsive, helpful, friendly, and we’re here to make your vision as amazing as you want it.</p>
 			</ul>
 
-			<H3>Artist</H3>
-			<p>Meet the artist of ANC</p>
-			<ul>
-				<li>Emel</li>
+				<!-- some quote about artist. sits on image @ top of screen -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<H3 class="text-center">Our Artist</H3>
+					</div>
+				<!-- the page's subtitle -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4"><H3>Meet The Artist Of ANC</H3>
+					</div>
+				</div>
+
+				<!-- artist names will represent picture links until pics added -->
+				<ul>
+				<div class="col-md-3"></div>
+					<div class="col-md-3"><li>Emel</li>
+					</div>
+						<div class="col-md-3"><li>Rival</li>
+						</div>
+							<div class="col-md-3"><li>Submissions</li>
+							</div>
+				</ul>
+
+				<h3 class="text-center">Emel</h3>
 				<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
 
-				<li>Rival</li>
-				<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. Afeter frequent collaboration, the duo decided to combine thier talents, creating a new distinctive sound.</p>
 
-				<li>Submissions Reviewed</li>
+				<h3 class="text-center">Rival</h3>
+				<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. Afeter frequent collaboration, the duo decided to combine their talents, creating a new distinctive sound.</p>
+
+				<h3 class="text-center">Submissions Reviewed</h3>
 				<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
-			</ul>
 
-			<div class="row">
-				<div class="col-md-12">
-					div.col-md-
-			<H3>About Us</H3>
+
+				<!-- the page's subtitle -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4"><H3>About Us</H3>
+					</div>
 				</div>
-			</div>
+
 			<ul>
 				<li>Our Desire</li>
 				<li>Our Goal</li>
 			</ul>
+
 
 			<div class="row">
 				<div class="col-md-12">
@@ -147,6 +199,4 @@
 		</div>
 	</body>
 
-
 </html>
-
