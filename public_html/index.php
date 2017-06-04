@@ -56,6 +56,8 @@
 					<!-- menu items -->
 					<div class="collapse navbar-collapse" id="mainNavBar">
 						<ul class="nav navbar-nav">
+
+
 							<!-- Services tab dropdown-->
 							<li class="active" class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
@@ -90,6 +92,7 @@
 						<li><a href="#">Contact Us</a></li>
 						</ul>
 					</div>
+
 				</nav>
 
 				<!-- some quote about service. sits on image @ top of screen -->
