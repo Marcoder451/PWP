@@ -32,11 +32,66 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
+
 		<header>
 
-
 		</header>
-			<div class="container-fluid">
+
+		<!-- look to wireframes for above the content -->
+
+		<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+
+					<!-- logo #is place holder for a link -->
+					<div class="navbar-header">
+						<!-- Navbar button -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">AmbassadorsNChains</a>
+					</div>
+
+					<!-- menu items -->
+					<div class="collapse navbar-collapse" id="mainNavBar">
+						<ul class="nav navbar-nav">
+							<!-- Services tab dropdown-->
+							<li class="active" class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Studio Recording</a></li>
+									<li><a href="#">Voice Overs</a></li>
+									<li><a href="#">Music Production</a></li>
+									<li><a href="#">Post Production</a></li>
+								</ul>
+							</li>
+							<!-- Our Artist tab dropdown-->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Artist<span></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Emel</a></li>
+									<li><a href="#">Rival</a></li>
+									<li><a href="#">Submissions</a></li>
+								</ul>
+							</li>
+							<!-- About Us tab dropdown-->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Our Desire</a></li>
+									<li><a href="#">Our Goal</a></li>
+								</ul>
+							</li>
+							</li>
+						</ul>
+						<!-- right align contact us tab -->
+						<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</nav>
+
 				<!-- some quote about service. sits on image @ top of screen -->
 				<div class="row">
 					<div class="col-md-2"></div>
@@ -46,7 +101,7 @@
 				<!-- the page's subtitle -->
 				<div class="row">
 					<div class="col-md-2"></div>
-					<div class="col-md-4"><H3>Meet The Artist Of ANC</H3>
+					<div class="col-md-4"><H3>What Can We Do For You</H3>
 					</div>
 				</div>
 
@@ -54,7 +109,15 @@
 					<div class="col-md-12">
 
 					</div>
+
+				<p>ANC has a wide range of services geared towards helping you to effectively put your message out to the world. Here are the services we pride our selves on carrying out, to serve your various media needs. Let's build your vision </p>
 				<p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+				</div>
+
+				<!-- same quote about service. sits on image @ top of screen -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<H3 class="text-center">Let's Get To Work</H3>
 				</div>
 
 				<div class="row">
@@ -85,6 +148,7 @@
 				<p>We offer Professional Online Mixing and Mastering services for your music, whether you’ve recorded in a home studio or professional studio, whether you’re a beginner or seasoned pro. Our services cater to all artists, producers across the board. Our Mixing and Mastering packages include anything needed in order for your music/campaign to reach its fulfillment. We stick with each client until they’re satisfied. Our staff is responsive, helpful, friendly, and we’re here to make your vision as amazing as you want it.</p>
 			</ul>
 
+				<!-- top of page -->
 				<!-- some quote about artist. sits on image @ top of screen -->
 				<div class="row">
 					<div class="col-md-2"></div>
@@ -119,10 +183,16 @@
 				<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
 
 
+				<!-- top of the page -->
+				<div class="row">
+					<div class="col-md-2"></div>
+					<H3 class="text-center">About Us</H3>
+				</div>
+
 				<!-- the page's subtitle -->
 				<div class="row">
 					<div class="col-md-2"></div>
-					<div class="col-md-4"><H3>About Us</H3>
+					<div class="col-md-4"><H3>Why We Do Our Best</H3>
 					</div>
 				</div>
 
@@ -130,7 +200,6 @@
 				<li>Our Desire</li>
 				<li>Our Goal</li>
 			</ul>
-
 
 			<div class="row">
 				<div class="col-md-12">
