@@ -31,6 +31,7 @@
 		<!-- google recaptcha-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
+
 	<body>
 
 		<header>
@@ -39,7 +40,7 @@
 
 		<!-- look to wireframes for above the content -->
 
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
 					<div class="container-fluid">
 
 					<!-- logo #is place holder for a link -->
@@ -95,6 +96,13 @@
 
 				</nav>
 
+		<div class="row">
+		<div class="jumbotron">
+			<h1 class="text-center">Company</h1>
+			<div class="col-md-4" <p>We specialize in Vision</p>
+		</div>
+		</div>
+
 				<!-- some quote about service. sits on image @ top of screen -->
 				<div class="row">
 					<div class="col-md-2"></div>
@@ -113,9 +121,15 @@
 
 					</div>
 
-				<p>ANC has a wide range of services geared towards helping you to effectively put your message out to the world. Here are the services we pride our selves on carrying out, to serve your various media needs. Let's build your vision </p>
-				<p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+				<div class="col-md-10"> <p>ANC has a wide range of services geared towards helping you to effectively put your message out to the world. Here are the services we pride our selves on carrying out, to serve your various media needs. Let's build your vision </p>
 				</div>
+
+					<div class="row">
+						<div class="col-md-12">
+				<div class="col-md-10"> <p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+				</div>
+				</div>
+					</div>
 
 				<!-- same quote about service. sits on image @ top of screen -->
 				<div class="row">
@@ -124,18 +138,26 @@
 				</div>
 
 				<div class="row">
-		<ul>
+
 				<div class="col-md-2"></div>
-				<div class="col-md-2"><li>Studio Recording</li>
+				<div class="col-md-2">
+					<strong><p>Studio Recording</p></strong>
+					<img src="studio-recording.jpg" alt="Random Name">
 				</div>
-				<div class="col-md-2"><li>Voice Overs</li>
+				<div class="col-md-2">
+					<strong><p>Voice Overs</p></strong>
+					<img src="voice-overs.jpg" alt="Random Name">
 				</div>
-				<div class="col-md-2"><li>Music Production</li>
+				<div class="col-md-2">
+					<strong><p>Music Production</p></strong
+					<img src="images/music-production.jpg" alt="Random Name">
 				</div>
-				<div class="col-md-2"><li>Post Production</li>
+				<div class="col-md-2">
+					<strong><p>Post Production</p></strong>
+					<img src="post-production.jpg" alt="Random Name">
 				</div>
 				</div>
-		</ul>
+
 
 			<ul>
 				<li>Studio Recording</li>
