@@ -136,38 +136,36 @@
 
 				<div class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-2">
-					<p class="text-center"><strong>Studio Recording</strong></p>
-					<a name="studio"><a href="#demo" data-toggle="collapse">
-					<img src="images/studio-recording.jpg" class="img-circle person" alt="Studio Recording"></a>
-					</a>
+				<div class="col-md-2" class="span4">
+					<p  class="text-center"><strong>Studio Recording</strong></p>
+					<a href="#demo" data-toggle="collapse">
+					<img id="studio" src="images/studio-recording.jpg" class="img-circle person" alt="Studio Recording"></a>
+
 					<div id="demo" class="collapse">
 						<p>ANC Studios is a fully integrated multimedia company specializing in audio recording, creative development, songwriting, and vocal coaching to accommodate the many needs of both artist, and companies.</p>
 					</div>
 				</div>
 				<div class="col-md-2">
 					<p class="text-center"><strong>Voice Overs</strong></p>
-					<a name="voice"><a href="#demo2" data-toggle="collapse">
-					<img src="images/voice-overs.jpg" class="img-circle person" alt="Voice Overs"></a>
-					</a>
+					<a href="#demo2" data-toggle="collapse">
+					<img id="voice" src="images/voice-overs.jpg" class="img-circle person" alt="Voice Overs"></a>
 					<div id="demo2" class="collapse">
 						<p>Great storytelling needs a great voice, amazing music and an effective relatable message. We’ve worked on successful social media campaigns, event promotion, community engagement projects, short films and documentaries. Lets tell your brands story.</p>
 					</div>
 				</div>
 				<div class="col-md-2">
 					<p class="text-center"><strong>Music Production</strong></p>
-					<a name="music"> <a href="#demo3" data-toggle="collapse">
-					<img src="images/music-production.jpg" class="img-circle person" alt="Music Production"></a>
-					</a>
+					<a href="#demo3" data-toggle="collapse">
+					<img id="music" src="images/music-production.jpg" class="img-circle person" alt="Music Production"></a>
+
 					<div id="demo3" class="collapse">
 						<p>Our producers can help in all the areas of a songs production. From choosing the songs, through completing the recording process, and even to sequencing material for an entire album. The producer is here to insure a polished finished product. We take what the artist is communicating, to bring emotion to a song that that will touch lives. Our producers approach recording sessions like a conductor of an orchestra. The players being artist, musicians, engineers, arrangers, vocalists, editors and even atmosphere of the studio.</p>
 					</div>
 				</div>
 				<div class="col-md-2">
 					<p class="text-center"><strong>Post Production</strong></p>
-					<a name="post"> <a href="#demo4" data-toggle="collapse">
-					<img src="images/post-production.jpg" class="img-circle person" alt="Random Name"></a>
-					</a>
+					<a href="#demo4" data-toggle="collapse">
+					<img id="post" src="images/post-production.jpg" class="img-circle person" alt="Random Name"></a>
 					<div id="demo4" class="collapse">
 						<p>We offer Professional Online Mixing and Mastering services for your music, whether you’ve recorded in a home studio or professional studio, whether you’re a beginner or seasoned pro. Our services cater to all artists, producers across the board. Our Mixing and Mastering packages include anything needed in order for your music/campaign to reach its fulfillment. We stick with each client until they’re satisfied. Our staff is responsive, helpful, friendly, and we’re here to make your vision as amazing as you want it.</p>
 					</div>
@@ -192,27 +190,24 @@
 						<div class="col-md-3"></div>
 					<div class="col-md-2">
 						<p class="text-center"><strong>Emel</strong></p>
-						<a name="emel"> <a href="#demo5" data-toggle="collapse">
-							<img src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
-						</a>
+						<a href="#demo5" data-toggle="collapse">
+							<img id="emel" src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
 						<div id="demo5" class="collapse">
 							<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
 					</div>
 				</div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Rival</strong></p>
-							<a name="rival"> <a href="#demo6" data-toggle="collapse">
-								<img src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
-							</a>
+							<a href="#demo6" data-toggle="collapse">
+								<img id="rival" src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
 							<div id="demo6" class="collapse">
 								<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. After frequent collaboration, the duo decided to combine their talents, creating a new distinctive sound.</p>
 							</div>
 						</div>
 							<div class="col-md-2">
 								<p class="text-center"><strong>Submissions</strong></p>
-								<a name="submissions"> <a href="#demo7" data-toggle="collapse">
-									<img src="images/talent.jpeg" class="img-circle person" alt="Random Name"></a>
-								</a>
+								<a href="#demo7" data-toggle="collapse">
+									<img id="submissions" src="images/talent.jpeg" class="img-circle person" alt="Random Name"></a>
 								<div id="demo7" class="collapse">
 									<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
 								</div>
@@ -236,18 +231,16 @@
 						<div class="col-md-4"></div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Our Desire</strong></p>
-							<a name="desire"><a href="#demo8" data-toggle="collapse">
-								<img src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
-							</a>
+							<a href="#demo8" data-toggle="collapse">
+								<img id="desire" src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
 							<div id="demo8" class="collapse">
 								<p>Still have to write.</p>
 							</div>
 						</div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Our Goal</strong></p>
-							<a name="goal"><a href="#demo9" data-toggle="collapse">
-								<img src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
-							</a>
+							<a href="#demo9" data-toggle="collapse">
+								<img id="goal" src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
 							<div id="demo9" class="collapse">
 								<p>Still have to write.</p>
 							</div>
