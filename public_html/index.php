@@ -47,7 +47,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/#page-top">Ambassadors</span> N Chains</a>
+						<a class="navbar-brand" href="#">Ambassadors</span> N Chains</a>
 					</div>
 
 					<!-- menu items -->
@@ -55,7 +55,7 @@
 						<ul class="nav navbar-nav">
 
 
-							<!-- Services tab dropdown-->
+							<!-- Services tab dropdown -->
 							<li class="active" class="dropdown">
 								<a href="#services" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
 								<ul class="dropdown-menu">
@@ -76,17 +76,16 @@
 							</li>
 							<!-- About Us tab dropdown-->
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
+								<a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#desire">Our Desire</a></li>
-									<li><a href="#goal">Our Goal</a></li>
+									<li><a href="#goal">Our Goal</li></a>
 								</ul>
-							</li>
 							</li>
 						</ul>
 						<!-- right align contact us tab -->
 						<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
 						</ul>
 					</div>
 
@@ -192,8 +191,8 @@
 						<div class="col-md-3"></div>
 					<div class="col-md-2">
 						<p class="text-center"><strong>Emel</strong></p>
-						<a href="#demo5" data-toggle="collapse">
-							<img src="images/emel.jpg" class="img-circle person" alt="Random Name">
+						<a name="emel"> <a href="#demo5" data-toggle="collapse">
+							<img src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
 						</a>
 						<div id="demo5" class="collapse">
 							<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
@@ -201,8 +200,8 @@
 				</div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Rival</strong></p>
-							<a href="#demo6" data-toggle="collapse">
-								<img src="images/rival.jpg" class="img-circle person" alt="Random Name">
+							<a name="rival"> <a href="#demo6" data-toggle="collapse">
+								<img src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
 							</a>
 							<div id="demo6" class="collapse">
 								<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. After frequent collaboration, the duo decided to combine their talents, creating a new distinctive sound.</p>
@@ -210,8 +209,8 @@
 						</div>
 							<div class="col-md-2">
 								<p class="text-center"><strong>Submissions</strong></p>
-								<a href="#demo7" data-toggle="collapse">
-									<img src="images/talent.jpg" class="img-circle person" alt="Random Name">
+								<a name="submissions"> <a href="#demo7" data-toggle="collapse">
+									<img src="images/talent.jpeg" class="img-circle person" alt="Random Name"></a>
 								</a>
 								<div id="demo7" class="collapse">
 									<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
@@ -228,7 +227,7 @@
 				<!-- the page's subtitle -->
 				<div class="row">
 					<div class="col-md-2"></div>
-					<div class="col-md-4"><H3>Why We strive serve</H3>
+					<div class="col-md-4"><H3>Why We strive to serve</H3>
 					</div>
 				</div>
 
@@ -236,8 +235,8 @@
 						<div class="col-md-4"></div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Our Desire</strong></p>
-							<a href="#demo8" data-toggle="collapse">
-								<img src="images/emel.jpg" class="img-circle person" alt="Random Name">
+							<a name="desire"><a href="#demo8" data-toggle="collapse">
+								<img src="images/emel.jpg" class="img-circle person" alt="Random Name"></a>
 							</a>
 							<div id="demo8" class="collapse">
 								<p>Still have to write.</p>
@@ -245,8 +244,8 @@
 						</div>
 						<div class="col-md-2">
 							<p class="text-center"><strong>Our Goal</strong></p>
-							<a href="#demo9" data-toggle="collapse">
-								<img src="images/rival.jpg" class="img-circle person" alt="Random Name">
+							<a name="goal"><a href="#demo9" data-toggle="collapse">
+								<img src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
 							</a>
 							<div id="demo9" class="collapse">
 								<p>Still have to write.</p>
@@ -257,7 +256,7 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<H3 class="text-center">Contact Us</H3>
+					<H3 class="text-center" id="contact">Contact Us</H3>
 				</div>
 			</div>
 			<div class="row">
