@@ -32,26 +32,22 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 
-	<body>
-
-		<header>
-
-		</header>
+	<body class="index" data-spy="scroll" data-target=".navbar-inverse">
 
 		<!-- look to wireframes for above the content -->
 
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
-
-					<!-- logo #is place holder for a link -->
-					<div class="navbar-header">
+						<!-- logo #is place holder for a link -->
+						<div class="navbar-header page-scroll">
 						<!-- Navbar button -->
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="#" class="navbar-brand">AmbassadorsNChains</a>
+						<a class="navbar-brand" href="/#page-top">Ambassadors</span> N Chains</a>
 					</div>
 
 					<!-- menu items -->
@@ -61,29 +57,29 @@
 
 							<!-- Services tab dropdown-->
 							<li class="active" class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
+								<a href="#services" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Studio Recording</a></li>
-									<li><a href="#">Voice Overs</a></li>
-									<li><a href="#">Music Production</a></li>
-									<li><a href="#">Post Production</a></li>
+									<li><a href="#studio">Studio Recording</a></li>
+									<li><a href="#voice">Voice Overs</a></li>
+									<li><a href="#music">Music Production</a></li>
+									<li><a href="#post">Post Production</a></li>
 								</ul>
 							</li>
 							<!-- Our Artist tab dropdown-->
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Artist<span></span></a>
+								<a href="#artist" class="dropdown-toggle" data-toggle="dropdown">Our Artist<span></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Emel</a></li>
-									<li><a href="#">Rival</a></li>
-									<li><a href="#">Submissions</a></li>
+									<li><a href="#emel">Emel</a></li>
+									<li><a href="#rival">Rival</a></li>
+									<li><a href="#submissions">Submissions</a></li>
 								</ul>
 							</li>
 							<!-- About Us tab dropdown-->
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Our Desire</a></li>
-									<li><a href="#">Our Goal</a></li>
+									<li><a href="#desire">Our Desire</a></li>
+									<li><a href="#goal">Our Goal</a></li>
 								</ul>
 							</li>
 							</li>
@@ -98,8 +94,8 @@
 
 		<div class="row">
 		<div class="jumbotron">
-			<h1 class="text-center">Company</h1>
-			<div class="col-md-4" <p>We specialize in Vision</p>
+			<h1 class="text-center">Company logo</h1>
+			<div class="col-md-4" <p>We specialize in Vision or nah</p>
 		</div>
 		</div>
 
@@ -120,15 +116,16 @@
 					<div class="col-md-12">
 
 					</div>
-
-				<div class="col-md-10"> <p>ANC has a wide range of services geared towards helping you to effectively put your message out to the world. Here are the services we pride our selves on carrying out, to serve your various media needs. Let's build your vision </p>
+					<div class="col-md-1"></div>
+						<div class="col-md-10"> <p>ANC has a wide range of services geared towards helping you to effectively put your message out to the world. Here are the services we pride our selves on carrying out, to serve your various media needs. Let's build your vision </p>
 				</div>
 
 					<div class="row">
 						<div class="col-md-12">
-				<div class="col-md-10"> <p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
-				</div>
-				</div>
+							<div class="col-md-2"></div>
+								<div class="col-md-10"> <p>Specifically created for todays social media focused world, ANC Studios is a conscious provider of high quality production value that companies, talent, content creators, brands and partners can connect with their target audiences and fans by way of engaging content. </p>
+								</div>
+						</div>
 					</div>
 
 				<!-- same quote about service. sits on image @ top of screen -->
@@ -138,40 +135,44 @@
 				</div>
 
 				<div class="row">
-
 				<div class="col-md-2"></div>
 				<div class="col-md-2">
-					<strong><p>Studio Recording</p></strong>
-					<img src="studio-recording.jpg" alt="Random Name">
+					<p class="text-center"><strong>Studio Recording</strong></p>
+					<a name="studio"><a href="#demo" data-toggle="collapse">
+					<img src="images/studio-recording.jpg" class="img-circle person" alt="Studio Recording"></a>
+					</a>
+					<div id="demo" class="collapse">
+						<p>ANC Studios is a fully integrated multimedia company specializing in audio recording, creative development, songwriting, and vocal coaching to accommodate the many needs of both artist, and companies.</p>
+					</div>
 				</div>
 				<div class="col-md-2">
-					<strong><p>Voice Overs</p></strong>
-					<img src="voice-overs.jpg" alt="Random Name">
+					<p class="text-center"><strong>Voice Overs</strong></p>
+					<a name="voice"><a href="#demo2" data-toggle="collapse">
+					<img src="images/voice-overs.jpg" class="img-circle person" alt="Voice Overs"></a>
+					</a>
+					<div id="demo2" class="collapse">
+						<p>Great storytelling needs a great voice, amazing music and an effective relatable message. We’ve worked on successful social media campaigns, event promotion, community engagement projects, short films and documentaries. Lets tell your brands story.</p>
+					</div>
 				</div>
 				<div class="col-md-2">
-					<strong><p>Music Production</p></strong
-					<img src="images/music-production.jpg" alt="Random Name">
+					<p class="text-center"><strong>Music Production</strong></p>
+					<a name="music"> <a href="#demo3" data-toggle="collapse">
+					<img src="images/music-production.jpg" class="img-circle person" alt="Music Production"></a>
+					</a>
+					<div id="demo3" class="collapse">
+						<p>Our producers can help in all the areas of a songs production. From choosing the songs, through completing the recording process, and even to sequencing material for an entire album. The producer is here to insure a polished finished product. We take what the artist is communicating, to bring emotion to a song that that will touch lives. Our producers approach recording sessions like a conductor of an orchestra. The players being artist, musicians, engineers, arrangers, vocalists, editors and even atmosphere of the studio.</p>
+					</div>
 				</div>
 				<div class="col-md-2">
-					<strong><p>Post Production</p></strong>
-					<img src="post-production.jpg" alt="Random Name">
+					<p class="text-center"><strong>Post Production</strong></p>
+					<a name="post"> <a href="#demo4" data-toggle="collapse">
+					<img src="images/post-production.jpg" class="img-circle person" alt="Random Name"></a>
+					</a>
+					<div id="demo4" class="collapse">
+						<p>We offer Professional Online Mixing and Mastering services for your music, whether you’ve recorded in a home studio or professional studio, whether you’re a beginner or seasoned pro. Our services cater to all artists, producers across the board. Our Mixing and Mastering packages include anything needed in order for your music/campaign to reach its fulfillment. We stick with each client until they’re satisfied. Our staff is responsive, helpful, friendly, and we’re here to make your vision as amazing as you want it.</p>
+					</div>
 				</div>
 				</div>
-
-
-			<ul>
-				<li>Studio Recording</li>
-				<p>ANC Studios is a fully integrated multimedia company specializing in audio recording, music videos, creative development, songwriting, and vocal coaching to accommodate the many needs of both artist, and companies.</p>
-
-				<li>Voice Overs</li>
-				<p>Great storytelling needs a great voice, amazing music and an effective relatable message. We’ve worked on successful social media campaigns, event promotion, community engagement projects, short films and documentaries. Lets tell your brands story.</p>
-
-				<li>Music Production</li>
-				<p>Our producers can help in all the areas of a songs production. From choosing the songs, through completing the recording process, and even to sequencing material for an entire album. The producer is here to insure a polished finished product. We take what the artist is communicating, to bring emotion to a song that that will touch lives. Our producers approach recording sessions like a conductor of an orchestra. The players being artist, musicians, engineers, arrangers, vocalists, editors and even atmosphere of the studio.</p>
-
-				<li>Post Production</li>
-				<p>We offer Professional Online Mixing and Mastering services for your music, whether you’ve recorded in a home studio or professional studio, whether you’re a beginner or seasoned pro. Our services cater to all artists, producers across the board. Our Mixing and Mastering packages include anything needed in order for your music/campaign to reach its fulfillment. We stick with each client until they’re satisfied. Our staff is responsive, helpful, friendly, and we’re here to make your vision as amazing as you want it.</p>
-			</ul>
 
 				<!-- top of page -->
 				<!-- some quote about artist. sits on image @ top of screen -->
@@ -187,26 +188,36 @@
 				</div>
 
 				<!-- artist names will represent picture links until pics added -->
-				<ul>
-				<div class="col-md-3"></div>
-					<div class="col-md-3"><li>Emel</li>
+					<div class="row">
+						<div class="col-md-3"></div>
+					<div class="col-md-2">
+						<p class="text-center"><strong>Emel</strong></p>
+						<a href="#demo5" data-toggle="collapse">
+							<img src="images/emel.jpg" class="img-circle person" alt="Random Name">
+						</a>
+						<div id="demo5" class="collapse">
+							<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
 					</div>
-						<div class="col-md-3"><li>Rival</li>
-						</div>
-							<div class="col-md-3"><li>Submissions</li>
+				</div>
+						<div class="col-md-2">
+							<p class="text-center"><strong>Rival</strong></p>
+							<a href="#demo6" data-toggle="collapse">
+								<img src="images/rival.jpg" class="img-circle person" alt="Random Name">
+							</a>
+							<div id="demo6" class="collapse">
+								<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. After frequent collaboration, the duo decided to combine their talents, creating a new distinctive sound.</p>
 							</div>
-				</ul>
-
-				<h3 class="text-center">Emel</h3>
-				<p>Emel is the founder and owner of ANC and has been a Christian Hip Hop artist since 2008.  Dedicated to the ministry and entertainment.</p>
-
-
-				<h3 class="text-center">Rival</h3>
-				<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. Afeter frequent collaboration, the duo decided to combine their talents, creating a new distinctive sound.</p>
-
-				<h3 class="text-center">Submissions Reviewed</h3>
-				<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
-
+						</div>
+							<div class="col-md-2">
+								<p class="text-center"><strong>Submissions</strong></p>
+								<a href="#demo7" data-toggle="collapse">
+									<img src="images/talent.jpg" class="img-circle person" alt="Random Name">
+								</a>
+								<div id="demo7" class="collapse">
+									<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team. ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
+								</div>
+						</div>
+					</div>
 
 				<!-- top of the page -->
 				<div class="row">
@@ -217,14 +228,32 @@
 				<!-- the page's subtitle -->
 				<div class="row">
 					<div class="col-md-2"></div>
-					<div class="col-md-4"><H3>Why We Do Our Best</H3>
+					<div class="col-md-4"><H3>Why We strive serve</H3>
 					</div>
 				</div>
 
-			<ul>
-				<li>Our Desire</li>
-				<li>Our Goal</li>
-			</ul>
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-2">
+							<p class="text-center"><strong>Our Desire</strong></p>
+							<a href="#demo8" data-toggle="collapse">
+								<img src="images/emel.jpg" class="img-circle person" alt="Random Name">
+							</a>
+							<div id="demo8" class="collapse">
+								<p>Still have to write.</p>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<p class="text-center"><strong>Our Goal</strong></p>
+							<a href="#demo9" data-toggle="collapse">
+								<img src="images/rival.jpg" class="img-circle person" alt="Random Name">
+							</a>
+							<div id="demo9" class="collapse">
+								<p>Still have to write.</p>
+							</div>
+						</div>
+
+
 
 			<div class="row">
 				<div class="col-md-12">

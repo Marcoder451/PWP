@@ -7,8 +7,8 @@
 	</head>
 	<body>
 <header>
-	<img src="images/mobile-wireframe.png" alt="Mobile Wireframe"/>
-	<img src="images/pwp-wireframe.png" alt="Desktop Wireframe"/>
+	<img src="../images/mobile-wireframe.png" alt="Mobile Wireframe"/>
+	<img src="../images/pwp-wireframe.png" alt="Desktop Wireframe"/>
 		<h1>Content</h1>
 </header>
 		<main>
