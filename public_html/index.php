@@ -97,6 +97,7 @@
 			<div class="col-md-4" <p>We specialize in Vision or nah</p>
 		</div>
 		</div>
+		<!-- trying some things -->
 
 				<!-- some quote about service. sits on image @ top of screen -->
 				<div class="row">
