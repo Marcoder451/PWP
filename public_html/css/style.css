@@ -2,52 +2,39 @@
 
 h1 {
 	color: steelblue;
-	padding-top: -350px;
+	top: 1000%;
 	font-size: 100px;
 }
 
 #caption {
 	color: whitesmoke;
+	font-size: 24px;
 }
 
 h2, h3 {
 	color: steelblue;
+	padding-top: 3cm;
 }
 
-#back img {
-	position: relative;
-	padding-top: 2cm;
-	height: auto;
-	max-width: 1396px;
+.bg {
+	width: 100%;
 	z-index: 0;
 }
+
 p {
 	color: black;
 }
 
-#front {
-	position: absolute;
-	top: 45%;
-	left: 40%;
-}
-
-body {
-	max-width: 100%;
-}
-
 .brand {
 
-	height:25px;
+	height: 25px;
 }
 
 img {
 	display: block;
 	margin: auto;
-	max-width: 75%;
+	max-width: 100%;
 }
-
-
-
 
 .person {
 	border: 10px solid transparent;
@@ -56,8 +43,8 @@ img {
 	height: 80%;
 	opacity: 0.7;
 }
+
 .person:hover {
 	border-color: steelblue;
 }
-
 

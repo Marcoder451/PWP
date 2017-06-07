@@ -40,59 +40,57 @@
 
 	<body class="index" data-spy="scroll" data-target=".navbar-inverse">
 
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
-
 				<!-- logo #is place holder for a link -->
-				<div class="navbar-header">
+				<div class="navbar-header page-scroll">
 					<!-- Navbar button -->
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#" class="navbar-brand">AmbassadorsNChains</a>
+					<a class="navbar-brand" href="#">Ambassadors</span> N Chains</a>
 				</div>
 
-
-			<!-- menu items -->
-
+				<!-- menu items -->
 				<div class="collapse navbar-collapse" id="mainNavBar">
 					<ul class="nav navbar-nav">
 
 
-						<!-- Services tab dropdown-->
-						<li class="active" class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
+						<!-- Services tab dropdown -->
+						<li class="dropdown">
+							<a href="#service" class="dropdown-toggle" data-toggle="dropdown">Services<span></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Studio Recording</a></li>
-								<li><a href="#">Voice Overs</a></li>
-								<li><a href="#">Music Production</a></li>
-								<li><a href="#">Post Production</a></li>
+								<li><a href="#studio">Studio Recording</a></li>
+								<li><a href="#voice">Voice Overs</a></li>
+								<li><a href="#music">Music Production</a></li>
+								<li><a href="#post">Post Production</a></li>
 							</ul>
 						</li>
 						<!-- Our Artist tab dropdown-->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Artist<span></span></a>
+							<a href="#artist" class="dropdown-toggle" data-toggle="dropdown">Our Artist<span></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Emel</a></li>
-								<li><a href="#">Rival</a></li>
-								<li><a href="#">Submissions</a></li>
+								<li><a href="#emel">Emel</a></li>
+								<li><a href="#rival">Rival</a></li>
+								<li><a href="#submissions">Submissions</a></li>
 							</ul>
 						</li>
 						<!-- About Us tab dropdown-->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
+							<a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us<span></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Our Desire</a></li>
-								<li><a href="#">Our Goal</a></li>
+								<li><a href="#desire">Our Desire</a></li>
+								<li><a href="#goal">Our Goal</li>
+								</a>
 							</ul>
-						</li>
 						</li>
 					</ul>
 					<!-- right align contact us tab -->
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
 					</ul>
 				</div>
 
@@ -101,12 +99,13 @@
 		<!-- look to wireframes for above the content -->
 		<div class="container">
 			<div class="row">
-				<div id="header">
-					<img src="images/station.jpg" id="back" class="img-responsive">
+				<div class="col-md-12">
+					<div id="header">
+						<div class="bg"><img src="images/station.jpg" id="back" class="img-responsive"></div>
 					<div class="carousel-caption"><h1 class="brand-heading">Ambassadors N’ Chains</h1>
-						<p id="caption">ANC has a wide range of services geared towards helping you to effectively</p>
-						<p id="caption">get your message out to the world. Let's build your vision</p></div>
-					<img id="front" src="images/logo.png">
+							<div class="row"> <p id="caption">ANC has a wide range of services geared towards helping you to effectively</p>
+							<p id="caption">get your message out to the world. Let's build your vision</p></div></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -116,7 +115,6 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-
 
 
 							<div class="page-scroll">
@@ -142,14 +140,7 @@
 				<div class="row" id="services">
 					<div class="col-md-12">
 						<div class="col-md-2"></div>
-						<div class="col-md-10"><p>Specifically created for todays social media focused world, ANC
-								Studios
-								is a
-								conscious provider of high quality production value that companies, talent, content
-								creators,
-								brands and partners can connect with their target audiences and fans by way of engaging
-								content. Here are the services we pride our selves on carrying out, to serve
-								your various media needs.</p>
+						<div class="col-md-10">
 						</div>
 					</div>
 				</div>
@@ -234,6 +225,11 @@
 				</div>
 				<!-- top of page -->
 				<!-- some quote about artist. sits on image @ top of screen -->
+				<div class="row">
+					<div class="col-md-12">
+
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-md-2"></div>
 					<H3 class="text-center">Our Artist</H3>
