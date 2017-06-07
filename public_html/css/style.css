@@ -1,1 +1,24 @@
 /* css file */
+#back img {
+	padding-top: 2cm;
+}
+
+body {
+	background-color: #cccccc;
+}
+
+
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 75%;
+}
+
+.bg
+{
+	height: auto;
+	max-width: 1396px;
+	z-index: 0;
+}
+
