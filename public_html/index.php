@@ -51,7 +51,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img alt="brand" src="images/logo.jpg" </a>
+					<a class="navbar-brand" href="#">Ambassadors N Chains></a>
 				</div>
 
 				<!-- menu items -->
@@ -100,9 +100,13 @@
 				<div id="header">
 					<div class="hero-image">
 					<img id="back" class="bg" src="images/station.jpg">
+						<img id="front" src="images/logo.png" >
 					</div>
 				</div>
 
+		<div class="row">
+			div.
+		</div>
 
 		<section class="intro">
 			<div class="intro-body">
@@ -332,6 +336,7 @@
 							</div>
 
 							<div class="row">
+								<div class="col-md-12">
 								<div class="col-md-4">
 									<h2>Let's Get To Work</h2>
 									<p>For more information regarding available services or to request a quote
