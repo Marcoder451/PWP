@@ -1,14 +1,33 @@
 /* css file */
 
+h1 {
+	color: steelblue;
+	padding-top: -400px;
+}
+
+h2, h3 {
+	color: steelblue;
+}
+
+#back img {
+	position: relative;
+	padding-top: 3cm;
+	height: auto;
+	max-width: 1396px;
+	z-index: 0;
+}
+p {
+	color: black;
+}
 
 #front {
 	position: absolute;
 	top: 60px;
-	left: 50%;
+	left: 45%;
 }
 
 body {
-	background-color: transparent;
+	max-width: 100%;
 }
 
 .brand {
@@ -22,17 +41,8 @@ img {
 	max-width: 75%;
 }
 
-#back img {
-	max-width: 100%;
-	position: relative;
-	padding-top: 3cm;
-}
-.bg
-{
-	height: auto;
-	max-width: 1396px;
-	z-index: 0;
-}
+
+
 
 .person {
 	border: 10px solid transparent;
