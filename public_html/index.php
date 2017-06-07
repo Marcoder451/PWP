@@ -103,7 +103,9 @@
 			<div class="row">
 				<div id="header">
 					<img src="images/station.jpg" id="back" class="img-responsive">
-					<div class="carousel-caption"><h1 class="brand-heading">Ambassadors N’ Chains</h1></div>
+					<div class="carousel-caption"><h1 class="brand-heading">Ambassadors N’ Chains</h1>
+						<p id="caption">ANC has a wide range of services geared towards helping you to effectively</p>
+						<p id="caption">get your message out to the world. Let's build your vision</p></div>
 					<img id="front" src="images/logo.png">
 				</div>
 			</div>
@@ -116,9 +118,7 @@
 						<div class="col-md-8 col-md-offset-2">
 
 
-							<p class="intro-text">ANC has a wide range of services geared towards helping you to effectively
-								put
-								your message out to the world. Let's build your vision</p>
+
 							<div class="page-scroll">
 							</div>
 						</div>
