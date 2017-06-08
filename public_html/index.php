@@ -96,6 +96,7 @@
 
 		</nav>
 
+		<main>
 		<!-- look to wireframes for above the content -->
 		<div class="container">
 			<div class="row">
@@ -161,12 +162,7 @@
 									  class="img-circle person" alt="Studio Recording" align="middle"></a>
 
 							<div id="demo" class="collapse">
-								<p>ANC Studios is a fully integrated multimedia company specializing in audio recording,
-									creative
-									development, songwriting, and vocal coaching to accommodate the many needs of both
-									artist,
-									and
-									companies.</p>
+								<p>ANC Studios is a fully integrated, multimedia company specializing in audio recording, creative development, songwriting and vocal coaching to accommodate the 								needs of artists and companies.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
@@ -174,12 +170,7 @@
 							<a href="#demo2" data-toggle="collapse">
 								<img id="voice" src="images/voice-overs.jpg" class="img-circle person" alt="Voice Overs"></a>
 							<div id="demo2" class="collapse">
-								<p>Great storytelling needs a great voice, amazing music and an effective relatable
-									message.
-									We’ve
-									worked on successful social media campaigns, event promotion, community engagement
-									projects,
-									short films and documentaries. Lets tell your brands story.</p>
+								<p>Great storytelling needs a great voice, amazing music and an effective and relatable message.  ANC has worked on successful social media campaigns, event 								promotion, community engagement projects, short films and documentaries.  Let’s tell your brand’s story.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
@@ -189,16 +180,7 @@
 									  alt="Music Production"></a>
 
 							<div id="demo3" class="collapse">
-								<p>Our producers can help in all the areas of a songs production. From choosing the songs,
-									through
-									completing the recording process, and even to sequencing material for an entire album.
-									The
-									producer is here to insure a polished finished product. We take what the artist is
-									communicating, to bring emotion to a song that that will touch lives. Our producers
-									approach
-									recording sessions like a conductor of an orchestra. The players being artist,
-									musicians,
-									engineers, arrangers, vocalists, editors and even atmosphere of the studio.</p>
+								<p>Our producers are experienced in all areas of a song’s production.  From song selection, to completing the recording process and sequencing of material for an 								entire album, the producer is working to ensure a polished finished product.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
@@ -207,18 +189,7 @@
 								<img id="post" src="images/post-production.jpg" class="img-circle person"
 									  alt="Random Name"></a>
 							<div id="demo4" class="collapse">
-								<p>We offer professional editing, mixing, and mastering services for your voice overs,
-									ads,
-									and music. Whether you’ve
-									recorded in a home or professional studio, if you’re a beginner or seasoned pro,
-									ANC caters to every business and artist across the board. Our Mixing and Mastering
-									packages
-									include anything needed in order for your project/campaign to reach its fulfillment. We
-									stick
-									with
-									each client until they are satisfied. Our staff is responsive, helpful, friendly, and
-									here
-									to make your vision as amazing as you want it.</p>
+								<p>We offer professional editing, mixing, and mastering services for your voice overs, ads, and music. Whether you’ve recorded in a home or professional studio, if 								you’re a beginner or seasoned pro, ANC caters to every business and artist across the board. Our Mixing and Mastering packages include anything needed in order for 								your project/campaign to reach its fulfillment. We stick with each client until they are satisfied. Our staff is responsive, helpful, friendly, and here to make 								your vision as amazing as envisioned.</p>
 							</div>
 						</div>
 					</div>
@@ -258,10 +229,8 @@
 						<a href="#demo6" data-toggle="collapse">
 							<img id="rival" src="images/rival.jpg" class="img-circle person" alt="Random Name"></a>
 						<div id="demo6" class="collapse">
-							<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since
-								2011.
-								After frequent collaboration, the duo decided to combine their talents, creating a new
-								distinctive sound.</p>
+							<p>Emel and Dee Brown comprise the group Rival. The two have collaborated musically since 2011. After frequent collaboration, the duo decided to combine their talents,  							creating a new distinctive sound.
+							</p>
 						</div>
 					</div>
 					<div class="col-md-3">
@@ -271,11 +240,7 @@
 								  alt="Random Name"></a>
 						<div id="demo7" class="collapse">
 							<p>ANC is looking for ambitious, energetic, positive and God loving artist to join the team.
-								ANC
-								is
-								two artist strong and, knows when a group Christian artists come together to attain a
-								common
-								goal, God steps in and history is created!</p>
+								ANC is two artist strong and, knows when a group Christian artists come together to attain a common goal, God steps in and history is created!</p>
 						</div>
 					</div>
 				</div>
@@ -330,7 +295,7 @@
 						<div class="col-md-12">
 							<div class="col-md-4">
 								<h2>Let's Get To Work</h2>
-								<p>For more information regarding available services or to request a quote
+								<p>For more information regarding available services, or to request a quote,
 									please complete the required fields.</p>
 								<p>For quotes please include what service you would like pricing for and desired date for
 									completion of your project.</p>
@@ -396,9 +361,10 @@
 							</div>
 						</div>
 						<div id="output-area"></div>
-						</main>
 					</div>
 				</div>
+				</main>
+
 	</body>
 
 </html>
