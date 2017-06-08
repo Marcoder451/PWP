@@ -1,5 +1,9 @@
 /* css file */
 
+body {
+	padding-bottom: 3cm;
+}
+
 h1 {
 	color: steelblue;
 	top: 1000%;
