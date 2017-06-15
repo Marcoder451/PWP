@@ -38,3 +38,66 @@ One thing that Rochelle brought up was the idea of transferring this to a WordPr
 Your content strategy looks great, and I'm looking forward to seeing how everything comes together! 
 
 grade Tier III - Great job! https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+
+## Milestone 2&beta; Feedback
+Tier II.
+
+## Milestone 3 / Final PWP Evaluation
+I see that you've done some work after the due date, so I have to base your PWP  evaluation on your repository at the last commit before 12:00 on 6/7/17. https://github.com/Marcoder451/pwp/tree/6424a65b97ae1cc0dbfb5364f4699ca8311f7a0b/public_html
+
+You've got a good start here - continue to work with Bootstrap, HTML and CSS to refine this layout for a professional look and feel. Your contact form appears to be wired correctly and functioning on my end - nice work. Check your email and see if you got my test message.
+
+There are some issues with your CSS that are preventing your layout from working on mobile. This has to do with the way the page title is sized in your CSS, and it's also causing your navbar toggle button to get pushed way off to the side. See **Edits &amp; Suggestions** below for some technical fixes.
+
+As I'm going through the site, I think that having the text content hidden might not be a good thing... it's not obvious to me as a user that I need to click on the images to read more, and I'm probably just going to scroll past all the info. I'd probably make that text visible - and you have great content too! Definitely worth showing. Just a thought.
+
+Some simplification and minor adjustments to the Bootstrap grid will help your content sections line up nicely with each other. Definitely simplification... there's a bit too much going on with the grid classes, and making things simpler will make things both easier on you and your layout look better. This will give your site a professional polish. Use any of my demo projects as a guide.
+
+You've challenged yourself with the jQuery driven collapse sections and that's great. Continue to practice and create mini projects, and build up in complexity as you go. You've got a good start - keep going.
+
+Your Milestone 3/Final Delivery for PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [24/40 points (60%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier III 30(0.2) = 6
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier II 20(0.1) = 2
+- Milestone 3 - 50%: Tier  II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+- Your welcome message isn't at all responsive on mobile. The size is set too big on your title in CSS, and putting it in a div with the class `carousel-caption` isn't the right way to do this. Have a look at some of my demo projects for a better way to build stuff like this. https://bootcamp-coders.cnm.edu/~rlewis37/
+- I'd apply a background-image to the welcome section using CSS instead of using an `<img>` tag. This way, you can put your page title text inside the div, on top of the image. Like this:
+#### HTML:
+```
+<div id="header">
+	<div class="bg">
+		<h1 class="brand-heading">Ambassadors N’ Chains</h1>
+		<div class="row">
+			<p class="lead">ANC has a wide range of services geared towards helping you to effectively</p>
+			<p class="lead">get your message out to the world. Let's build your vision</p>
+		</div>
+	</div>
+</div>
+```
+#### CSS: 
+```
+.bg {
+	background-image: url("images/station.jpg") no-repeat center;
+	background-size: cover;
+}
+```
+- Try sizing your page title for large screens inside a `@media` query, and leave the default style for mobile. That CSS might look something like this:
+```
+@media only screen and (min-width: 992px) {
+	h1.brand-heading {
+	   color: steelblue;
+	   font-size: 100px;
+  }
+}
+
+```
+- Because the welcome message area isn't responsive - your nav isn't visible on mobile either. Fix the welcome area, and the navbar should fall into place.
+- `cm` (centimeters) are one of the units of measurement that aren't appropriate for the web. Use px, rem, em, vh, vw, or % instead.
+- Avoid nesting Bootstrap `container`s inside each other. This kind of messes up the grid a little. See lines 99 and 101.
+- Update the `alt` attributes on your images. This is good for SEO, especially for your artists! Google Image search uses the alt text.
+- Remember that you can't repeat `id`s on a page. See lines 107 and 108.
