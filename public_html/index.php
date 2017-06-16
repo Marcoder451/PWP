@@ -96,7 +96,7 @@
 
 		</nav>
 
-		<main>
+		<main class="container">
 		<!-- look to wireframes for above the content -->
 		<div class="container">
 			<div class="row">

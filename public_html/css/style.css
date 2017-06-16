@@ -17,7 +17,7 @@ h1 {
 
 h2, h3 {
 	color: steelblue;
-	padding-top: 3cm;
+	padding-top: 4cm;
 }
 
 .bg {
@@ -49,6 +49,7 @@ img {
 }
 
 .person:hover {
-	border-color: steelblue;
+	border-color: darkslategrey;
+	border-radius: ;
 }
 
